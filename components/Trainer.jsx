@@ -6,7 +6,10 @@ import Image from "next/image";
 
 const Trainer = () => {
   return (
-    <div className="bg-primary-green p-20 flex flex-col justify-center ">
+    <div
+      id="trainer"
+      className="bg-primary-green p-20 flex flex-col justify-center "
+    >
       <h1 className="text-4xl mb-10 text-center">YourYoga Trainers</h1>
       <div className="flex justify-around flex-col md:flex-row">
         <div className="flex flex-col justify-center items-center">

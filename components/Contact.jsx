@@ -2,7 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-primary-green relative h-screen w-full flex flex-col justify-center items-center">
+    <div
+      id="contact"
+      className="bg-primary-green relative h-screen w-full flex flex-col justify-center items-center"
+    >
       <div className="bg-primary-blue p-10 flex flex-col justify-center items-center absolute bottom-[100px] w-[70%] h-[70%] z-20">
         <h1 className="text-4xl text-center">Contact YourYoga</h1>
         <form className="flex flex-col justify-center items-center p-10 w-[300px] md:w-[50%]">

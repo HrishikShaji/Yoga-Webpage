@@ -4,6 +4,7 @@ import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Price from "@/components/Price";
+import Testimonials from "@/components/Testimonials";
 import Trainer from "@/components/Trainer";
 import Welcome from "@/components/Welcome";
 import Head from "next/head";
@@ -25,6 +26,7 @@ export default function Home() {
         <Gallery />
         <Trainer />
         <Price />
+        <Testimonials />
         <Contact />
       </main>
     </>

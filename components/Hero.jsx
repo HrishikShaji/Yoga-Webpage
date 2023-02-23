@@ -4,7 +4,10 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-around items-center h-screen w-full bg-primary-blue">
+    <div
+      id="home"
+      className="flex flex-col md:flex-row justify-around items-center h-screen w-full bg-primary-blue"
+    >
       <div></div>
       <div className="sm:w-[50%] flex md:flex-col md:justify-between justify-center items-center text-center sm:px-6 sm:pt-10">
         <h1 className="text-4xl sm:text-6xl  text-primary-white">

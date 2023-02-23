@@ -12,7 +12,10 @@ import Image from "next/image";
 
 const Gallery = () => {
   return (
-    <div className="flex flex-col justify-center items-center p-10">
+    <div
+      id="gallery"
+      className="flex flex-col justify-center items-center p-10"
+    >
       <h1 className="text-4xl m-10">YourYoga Gallery</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
         <Image

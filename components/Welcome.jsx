@@ -4,7 +4,10 @@ import img1 from "../public/assets/yoga.svg";
 
 const Welcome = () => {
   return (
-    <div className="sm:h-screen flex flex-col sm:flex-row items-center py-10  justify-around w-full bg-primary-cyan">
+    <div
+      id="about"
+      className="sm:h-screen flex flex-col sm:flex-row items-center py-10  justify-around w-full bg-primary-cyan"
+    >
       <div>
         <Image
           src={img1}
